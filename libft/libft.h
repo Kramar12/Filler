@@ -21,7 +21,19 @@
 # include <fcntl.h>
 
 # define MAX_FD 10
-# define BUFF_SIZE 32
+//# define BUFF_SIZE 32
+
+//# include "libft/includes/libft.h"
+# include <sys/types.h>
+
+# include <sys/uio.h>
+# include <unistd.h>
+# include <fcntl.h>
+# include <stdlib.h>
+# define BUFF_SIZE 10
+# define ENDL '\n'
+# define END '\0'
+
 
 typedef	struct		s_list
 {

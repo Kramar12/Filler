@@ -21,6 +21,16 @@ stdarg.h
 -
 fcntl.h
 -
+sys/types.h
+-
+sys/uio.h
+-
+unistd.h
+-
+fcntl.h
+-
+stdlib.h
+-
 
 /Users/ariabyi/CLionProjects/Filler/main.c
 stdio.h
