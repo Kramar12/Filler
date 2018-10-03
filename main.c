@@ -77,8 +77,8 @@ void    clean_all(t_filler *filler)
     size_y = filler->map.size_y;
     while (size_y--)
     {
-        free(filler->map.map[size_y]);
-		filler->map.map[size_y] = NULL;
+//        free(filler->map.map[size_y]);
+//		filler->map.map[size_y] = NULL;
         free(filler->bfs[size_y]);
 		filler->bfs[size_y] = NULL;
     }

@@ -17,7 +17,7 @@ char    *append_char(char **s, char c)
 	ft_strcpy(temp, *s);
 	temp[len] = c;
 	temp[len + 1] = '\0';
-	free(*s);
+//	free(*s); //we need free this
 	*s = NULL;
 	return (temp);
 }
