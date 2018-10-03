@@ -70,18 +70,63 @@ CMakeFiles/filler.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filler.dir/main.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ariabyi/CLionProjects/Filler/main.c -o CMakeFiles/filler.dir/main.c.s
 
+CMakeFiles/filler.dir/parsing.c.o: CMakeFiles/filler.dir/flags.make
+CMakeFiles/filler.dir/parsing.c.o: ../parsing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ariabyi/CLionProjects/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/filler.dir/parsing.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler.dir/parsing.c.o   -c /Users/ariabyi/CLionProjects/Filler/parsing.c
+
+CMakeFiles/filler.dir/parsing.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filler.dir/parsing.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ariabyi/CLionProjects/Filler/parsing.c > CMakeFiles/filler.dir/parsing.c.i
+
+CMakeFiles/filler.dir/parsing.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filler.dir/parsing.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ariabyi/CLionProjects/Filler/parsing.c -o CMakeFiles/filler.dir/parsing.c.s
+
+CMakeFiles/filler.dir/trash.c.o: CMakeFiles/filler.dir/flags.make
+CMakeFiles/filler.dir/trash.c.o: ../trash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ariabyi/CLionProjects/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/filler.dir/trash.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler.dir/trash.c.o   -c /Users/ariabyi/CLionProjects/Filler/trash.c
+
+CMakeFiles/filler.dir/trash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filler.dir/trash.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ariabyi/CLionProjects/Filler/trash.c > CMakeFiles/filler.dir/trash.c.i
+
+CMakeFiles/filler.dir/trash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filler.dir/trash.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ariabyi/CLionProjects/Filler/trash.c -o CMakeFiles/filler.dir/trash.c.s
+
+CMakeFiles/filler.dir/get_answer.c.o: CMakeFiles/filler.dir/flags.make
+CMakeFiles/filler.dir/get_answer.c.o: ../get_answer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ariabyi/CLionProjects/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/filler.dir/get_answer.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler.dir/get_answer.c.o   -c /Users/ariabyi/CLionProjects/Filler/get_answer.c
+
+CMakeFiles/filler.dir/get_answer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filler.dir/get_answer.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ariabyi/CLionProjects/Filler/get_answer.c > CMakeFiles/filler.dir/get_answer.c.i
+
+CMakeFiles/filler.dir/get_answer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filler.dir/get_answer.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ariabyi/CLionProjects/Filler/get_answer.c -o CMakeFiles/filler.dir/get_answer.c.s
+
 # Object files for target filler
 filler_OBJECTS = \
-"CMakeFiles/filler.dir/main.c.o"
+"CMakeFiles/filler.dir/main.c.o" \
+"CMakeFiles/filler.dir/parsing.c.o" \
+"CMakeFiles/filler.dir/trash.c.o" \
+"CMakeFiles/filler.dir/get_answer.c.o"
 
 # External object files for target filler
 filler_EXTERNAL_OBJECTS =
 
 filler: CMakeFiles/filler.dir/main.c.o
+filler: CMakeFiles/filler.dir/parsing.c.o
+filler: CMakeFiles/filler.dir/trash.c.o
+filler: CMakeFiles/filler.dir/get_answer.c.o
 filler: CMakeFiles/filler.dir/build.make
 filler: ../libft/libft.a
 filler: CMakeFiles/filler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ariabyi/CLionProjects/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable filler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ariabyi/CLionProjects/Filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable filler"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/filler.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

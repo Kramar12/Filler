@@ -6,7 +6,7 @@
 #    By: ariabyi <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/05/11 15:21:59 by ariabyi           #+#    #+#              #
-#    Updated: 2018/08/21 14:48:03 by ariabyi          ###   ########.fr        #
+#    Updated: 2018/10/01 15:55:09 by ariabyi          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@
 
 CC = gcc
 NAME = ariabyi.filler
-SRC = main.c
+SRC = main.c parsing.c get_answer.c trash.c
 
 CFLAGS = #-Wall -Wextra -Werror
 HEADER = -I ./header

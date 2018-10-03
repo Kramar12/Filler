@@ -387,7 +387,7 @@ class	Vm_filler
 			self.sid = av.to_i
 		end
 		verb = Proc.new do |av|
-			self.verbose = 0
+			self.verbose = 1
 		end
 		time = Proc.new do |av|
 			self.modif_time = 1
@@ -527,10 +527,11 @@ if __FILE__ == $0
 					begin
 						player_time = Timeout::timeout(init.time) do
 							@line = player.read_from_player()
+                            puts "#{player.piece_char} get #{@line}"
 						end
 					rescue Timeout::Error
-						puts "Player with #{player.piece_char}: timedout"
-						trace.trace_msg "#{player.piece_char}: timedout\n"
+						puts "Player with #{player.piece_char}: timedout_hui1"
+						trace.trace_msg "#{player.piece_char}: timedout_hui2\n"
 						player.end_player trace
 					end
 					if (player.live > 0 && (nb = @line.gsub(/\s+/m, ' ').strip.split(" ")).length != 2)

@@ -30,10 +30,10 @@
 # include <unistd.h>
 # include <fcntl.h>
 # include <stdlib.h>
-# define BUFF_SIZE 10
+# define BUFF_SIZE 32
 # define ENDL '\n'
 # define END '\0'
-
+# define MALLCHECK(x) if (!x) return (-1);
 
 typedef	struct		s_list
 {

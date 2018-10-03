@@ -81,10 +81,19 @@
 		<Unit filename="/Users/ariabyi/CLionProjects/Filler/filler.h">
 			<Option target="filler"/>
 		</Unit>
+		<Unit filename="/Users/ariabyi/CLionProjects/Filler/get_answer.c">
+			<Option target="filler"/>
+		</Unit>
 		<Unit filename="/Users/ariabyi/CLionProjects/Filler/libft/libft.a">
 			<Option target="filler"/>
 		</Unit>
 		<Unit filename="/Users/ariabyi/CLionProjects/Filler/main.c">
+			<Option target="filler"/>
+		</Unit>
+		<Unit filename="/Users/ariabyi/CLionProjects/Filler/parsing.c">
+			<Option target="filler"/>
+		</Unit>
+		<Unit filename="/Users/ariabyi/CLionProjects/Filler/trash.c">
 			<Option target="filler"/>
 		</Unit>
 		<Unit filename="/Users/ariabyi/CLionProjects/Filler/CMakeLists.txt">

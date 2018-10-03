@@ -4,5 +4,5 @@ project(filler C)
 set(CMAKE_C_STANDARD 99)
 set(LIBFT ${CMAKE_SOURCE_DIR}/libft/libft.a)
 
-add_executable(filler main.c libft/libft.a filler.h)
+add_executable(filler main.c libft/libft.a filler.h parsing.c trash.c get_answer.c)
 target_link_libraries(filler ${LIBFT})

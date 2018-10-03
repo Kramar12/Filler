@@ -123,6 +123,33 @@ filler/fast:
 	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/build
 .PHONY : filler/fast
 
+get_answer.o: get_answer.c.o
+
+.PHONY : get_answer.o
+
+# target to build an object file
+get_answer.c.o:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/get_answer.c.o
+.PHONY : get_answer.c.o
+
+get_answer.i: get_answer.c.i
+
+.PHONY : get_answer.i
+
+# target to preprocess a source file
+get_answer.c.i:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/get_answer.c.i
+.PHONY : get_answer.c.i
+
+get_answer.s: get_answer.c.s
+
+.PHONY : get_answer.s
+
+# target to generate assembly for a file
+get_answer.c.s:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/get_answer.c.s
+.PHONY : get_answer.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -150,6 +177,60 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/main.c.s
 .PHONY : main.c.s
 
+parsing.o: parsing.c.o
+
+.PHONY : parsing.o
+
+# target to build an object file
+parsing.c.o:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/parsing.c.o
+.PHONY : parsing.c.o
+
+parsing.i: parsing.c.i
+
+.PHONY : parsing.i
+
+# target to preprocess a source file
+parsing.c.i:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/parsing.c.i
+.PHONY : parsing.c.i
+
+parsing.s: parsing.c.s
+
+.PHONY : parsing.s
+
+# target to generate assembly for a file
+parsing.c.s:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/parsing.c.s
+.PHONY : parsing.c.s
+
+trash.o: trash.c.o
+
+.PHONY : trash.o
+
+# target to build an object file
+trash.c.o:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/trash.c.o
+.PHONY : trash.c.o
+
+trash.i: trash.c.i
+
+.PHONY : trash.i
+
+# target to preprocess a source file
+trash.c.i:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/trash.c.i
+.PHONY : trash.c.i
+
+trash.s: trash.c.s
+
+.PHONY : trash.s
+
+# target to generate assembly for a file
+trash.c.s:
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/trash.c.s
+.PHONY : trash.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... filler"
+	@echo "... get_answer.o"
+	@echo "... get_answer.i"
+	@echo "... get_answer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... parsing.o"
+	@echo "... parsing.i"
+	@echo "... parsing.s"
+	@echo "... trash.o"
+	@echo "... trash.i"
+	@echo "... trash.s"
 .PHONY : help
 
 

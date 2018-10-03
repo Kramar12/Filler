@@ -7,6 +7,10 @@
 #IncludeRegexTransform: 
 
 /Users/ariabyi/CLionProjects/Filler/filler.h
+libft/libft.h
+/Users/ariabyi/CLionProjects/Filler/libft/libft.h
+stdio.h
+/Users/ariabyi/CLionProjects/Filler/stdio.h
 
 /Users/ariabyi/CLionProjects/Filler/libft/libft.h
 unistd.h
@@ -32,11 +36,7 @@ fcntl.h
 stdlib.h
 -
 
-/Users/ariabyi/CLionProjects/Filler/main.c
-stdio.h
--
-libft/libft.h
-/Users/ariabyi/CLionProjects/Filler/libft/libft.h
+/Users/ariabyi/CLionProjects/Filler/parsing.c
 filler.h
 /Users/ariabyi/CLionProjects/Filler/filler.h
 

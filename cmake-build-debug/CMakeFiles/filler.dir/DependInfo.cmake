@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/ariabyi/CLionProjects/Filler/get_answer.c" "/Users/ariabyi/CLionProjects/Filler/cmake-build-debug/CMakeFiles/filler.dir/get_answer.c.o"
   "/Users/ariabyi/CLionProjects/Filler/main.c" "/Users/ariabyi/CLionProjects/Filler/cmake-build-debug/CMakeFiles/filler.dir/main.c.o"
+  "/Users/ariabyi/CLionProjects/Filler/parsing.c" "/Users/ariabyi/CLionProjects/Filler/cmake-build-debug/CMakeFiles/filler.dir/parsing.c.o"
+  "/Users/ariabyi/CLionProjects/Filler/trash.c" "/Users/ariabyi/CLionProjects/Filler/cmake-build-debug/CMakeFiles/filler.dir/trash.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
