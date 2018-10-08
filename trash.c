@@ -3,7 +3,7 @@
 char    *append_char(char **s, char c)
 {
 	char *temp;
-	ssize_t len;
+	size_t len;
 	
 	if (!*s)
 	{
